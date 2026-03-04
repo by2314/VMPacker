@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "vmp-gui",
+  "outputfilename": "vmp-gui",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "LeoChen",
+    "email": "109653251+LeoChen-CoreMind@users.noreply.github.com"
+  },
+  "info": {
+    "companyName": "VMProtect",
+    "productName": "VMProtect Core Engine",
+    "productVersion": "1.1.0",
+    "copyright": "Copyright © 2026 LeoChen",
+    "comments": "ARM64 虚拟机代码保护系统"
+  },
+  "nsisType": "multiple"
+}
